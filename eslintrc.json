@@ -1,0 +1,9 @@
+{
+    "extends": "canonical",
+    "rules": {
+        "indent": [
+            2,
+            2
+        ]
+    }
+}

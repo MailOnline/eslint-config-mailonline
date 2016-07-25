@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-mailonline",
+  "version": "1.0.0",
+  "description": "MailOnline ESLint config.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MailOnline/eslint-config-mailonline.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": {
+    "name": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-airbnb": "^9.0.1"
+  },
+  "dependencies": {
+    "eslint-config-canonical": "^1.7.12"
+  }
+}
