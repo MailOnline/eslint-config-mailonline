@@ -7,7 +7,7 @@
         ],
         "react/jsx-indent": [
             2,
-            4
+            2
         ]
     }
 }
