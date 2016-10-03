@@ -17,3 +17,7 @@ Create ESLint configuration file (`.eslintrc`) that extends `eslint-config-mailo
     "extends": "mailonline"
 }
 ```
+
+## Breaking changes
+
+Any changes to this package that might cause code using it to not validate anymore, will be a semver-major change.
