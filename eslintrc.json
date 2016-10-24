@@ -1,7 +1,7 @@
 {
     "extends": "canonical",
     "rules": {
-        "arrow-body-style": "off",
+        "arrow-body-style": ["error", "as-needed"],
         "no-restricted-syntax": "off",
         "promise/no-native": "off"
     }
