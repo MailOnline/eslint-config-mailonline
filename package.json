@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mailonline",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "MailOnline ESLint config.",
   "main": "./index.js",
   "repository": {
