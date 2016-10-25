@@ -3,6 +3,11 @@
     "rules": {
         "arrow-body-style": ["error", "as-needed"],
         "no-restricted-syntax": "off",
+        "no-multiple-empty-lines": ["error", {
+          "max": 1,
+          "maxBOF": 0,
+          "maxEOF": 1
+        }],
         "promise/no-native": "off"
     }
 }
