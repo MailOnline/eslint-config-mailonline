@@ -5,7 +5,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MailOnline/eslint-config-mailonline.git"
+    "url": "https://github.com/mailonline/eslint-config-mailonline"
   },
   "keywords": [
     "eslint",
