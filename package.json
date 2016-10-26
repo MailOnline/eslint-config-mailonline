@@ -16,9 +16,6 @@
     "email": "gajus@gajus.com",
     "url": "http://gajus.com"
   },
-  "devDependencies": {
-    "eslint-config-airbnb": "^9.0.1"
-  },
   "license": "BSD-3-Clause",
   "dependencies": {
     "eslint-config-canonical": "1.13.0"
