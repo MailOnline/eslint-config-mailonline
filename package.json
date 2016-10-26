@@ -5,7 +5,8 @@
   "description": "MailOnline ESLint config.",
   "devDependencies": {
     "husky": "^0.11.9",
-    "jsonlint": "^1.6.2"
+    "jsonlint": "^1.6.2",
+    "semantic-release": "^4.3.5"
   },
   "keywords": [
     "eslint",
@@ -22,6 +23,7 @@
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json",
     "lint": "echo 'Hello, World!'",
     "precommit": "npm run lint && npm run test && npm run format",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "echo 'Hello, World!'"
   },
   "version": "2.0.0"
