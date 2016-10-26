@@ -1,18 +1,18 @@
 {
-  "name": "eslint-config-mailonline",
-  "version": "2.0.0",
-  "description": "MailOnline ESLint config.",
-  "main": "./index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mailonline/eslint-config-mailonline"
+  "dependencies": {
+    "eslint-config-canonical": "1.13.0"
   },
+  "description": "MailOnline ESLint config.",
   "keywords": [
     "eslint",
     "config"
   ],
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "eslint-config-canonical": "1.13.0"
-  }
+  "main": "./index.js",
+  "name": "eslint-config-mailonline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mailonline/eslint-config-mailonline"
+  },
+  "version": "2.0.0"
 }
