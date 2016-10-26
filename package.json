@@ -4,6 +4,7 @@
   },
   "description": "MailOnline ESLint config.",
   "devDependencies": {
+    "husky": "^0.11.9",
     "jsonlint": "^1.6.2"
   },
   "keywords": [
@@ -19,6 +20,8 @@
   },
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json",
+    "lint": "echo 'Hello, World!'",
+    "precommit": "npm run lint && npm run test && npm run format",
     "test": "echo 'Hello, World!'"
   },
   "version": "2.0.0"
