@@ -3,6 +3,9 @@
     "eslint-config-canonical": "1.13.0"
   },
   "description": "MailOnline ESLint config.",
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  },
   "keywords": [
     "eslint",
     "config"
@@ -15,6 +18,7 @@
     "url": "https://github.com/mailonline/eslint-config-mailonline"
   },
   "scripts": {
+    "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json",
     "test": "echo 'Hello, World!'"
   },
   "version": "2.0.0"
