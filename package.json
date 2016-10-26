@@ -11,11 +11,6 @@
     "eslint",
     "config"
   ],
-  "author": {
-    "name": "Gajus Kuizinas",
-    "email": "gajus@gajus.com",
-    "url": "http://gajus.com"
-  },
   "license": "BSD-3-Clause",
   "dependencies": {
     "eslint-config-canonical": "1.13.0"
