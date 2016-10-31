@@ -1,26 +1,30 @@
 {
-  "name": "eslint-config-mailonline",
-  "version": "2.0.0",
+  "dependencies": {
+    "eslint-config-canonical": "1.13.0"
+  },
   "description": "MailOnline ESLint config.",
-  "main": "./index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/MailOnline/eslint-config-mailonline.git"
+  "devDependencies": {
+    "husky": "^0.11.9",
+    "jsonlint": "^1.6.2",
+    "semantic-release": "^4.3.5"
   },
   "keywords": [
     "eslint",
     "config"
   ],
-  "author": {
-    "name": "Gajus Kuizinas",
-    "email": "gajus@gajus.com",
-    "url": "http://gajus.com"
+  "license": "BSD-3-Clause",
+  "main": "./index.js",
+  "name": "eslint-config-mailonline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mailonline/eslint-config-mailonline"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "eslint-config-airbnb": "^9.0.1"
+  "scripts": {
+    "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json",
+    "lint": "echo 'Hello, World!'",
+    "precommit": "npm run lint && npm run test && npm run format",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "echo 'Hello, World!'"
   },
-  "dependencies": {
-    "eslint-config-canonical": "1.13.0"
-  }
+  "version": "2.0.0"
 }

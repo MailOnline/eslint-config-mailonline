@@ -1,13 +1,19 @@
 {
-    "extends": "canonical",
-    "rules": {
-        "arrow-body-style": ["error", "as-needed"],
-        "no-restricted-syntax": "off",
-        "no-multiple-empty-lines": ["error", {
-          "max": 1,
-          "maxBOF": 0,
-          "maxEOF": 1
-        }],
-        "promise/no-native": "off"
-    }
+  "extends": "canonical",
+  "rules": {
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxBOF": 0,
+        "maxEOF": 1
+      }
+    ],
+    "no-restricted-syntax": "off",
+    "promise/no-native": "off"
+  }
 }
