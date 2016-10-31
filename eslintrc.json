@@ -5,6 +5,14 @@
       "error",
       "as-needed"
     ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxBOF": 0,
+        "maxEOF": 1
+      }
+    ],
     "no-restricted-syntax": "off",
     "promise/no-native": "off"
   }
