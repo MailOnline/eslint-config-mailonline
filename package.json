@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "eslint-config-canonical": "1.13.0"
+    "eslint-config-canonical": "^4.0.0"
   },
   "description": "MailOnline ESLint config.",
   "devDependencies": {
