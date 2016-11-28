@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "eslint-config-canonical": "^4.0.0"
+    "eslint-config-canonical": "^5.8.0"
   },
   "description": "MailOnline ESLint config.",
   "devDependencies": {
@@ -26,5 +26,5 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "echo 'Hello, World!'"
   },
-  "version": "3.0.0"
+  "version": "4.0.0"
 }
