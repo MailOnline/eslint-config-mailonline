@@ -1,11 +1,13 @@
 {
-  "extends": "canonical",
+  "extends": [
+    "canonical",
+    "canonical/mocha"
+  ],
   "rules": {
     "arrow-body-style": [
       "error",
       "as-needed"
     ],
-    "no-restricted-syntax": "off",
-    "promise/no-native": "off"
+    "no-restricted-syntax": "off"
   }
 }
