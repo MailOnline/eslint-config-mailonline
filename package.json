@@ -26,5 +26,5 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "echo 'Hello, World!'"
   },
-  "version": "5.0.0"
+  "version": "5.0.1"
 }
