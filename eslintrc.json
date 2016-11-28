@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "canonical",
-    "canonical/mocha"
-  ],
+  "extends": ["canonical"],
   "rules": {
     "arrow-body-style": [
       "error",
