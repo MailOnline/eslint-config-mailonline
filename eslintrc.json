@@ -12,6 +12,8 @@
       "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*(\\.[a-z]+)*$",
       false
     ],
-    "no-restricted-syntax": "off"
+    "no-restricted-syntax": "off",
+    "promise/prefer-await-to-callbacks": "off",
+    "promise/prefer-await-to-then": "off"
   }
 }
