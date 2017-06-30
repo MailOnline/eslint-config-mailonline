@@ -17,7 +17,70 @@ Create ESLint configuration file (`.eslintrc`) that extends `eslint-config-mailo
 
 ```json
 {
-    "extends": "mailonline"
+  "extends": "mailonline"
+}
+```
+
+## Extended configs
+
+The package also has separate entry points for some environments. Simply extend from the entry point as described below,
+either in a folder-specific eslint config, or additionally to the root config, e.g.:
+
+```json
+{
+  "extends": [
+    "mailonline",
+    "mailonline/jest",
+    "mailonline/react"
+  ]
+}
+```
+
+### jest
+
+```json
+{
+  "extends": "mailonline/jest"
+}
+```
+
+### mocha
+
+```json
+{
+  "extends": "mailonline/mocha"
+}
+```
+
+### react
+
+```json
+{
+  "extends": "mailonline/react"
+}
+```
+
+### flowtype
+
+```json
+{
+  "extends": "mailonline/flowtype"
+}
+```
+
+### lodash
+
+```json
+{
+  "extends": "mailonline/lodash"
+}
+```
+
+### ava
+
+```json
+{
+  "extends": "mailonline/ava"
 }
 ```
 
