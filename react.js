@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-canonical/react');
+module.exports = require('./configurations/react.json');
