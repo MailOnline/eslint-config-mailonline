@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "eslint-config-canonical": "^9.2.0",
-    "eslint-plugin-jest": "^20.0.3"
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-react": "^7.1.0"
   },
   "description": "MailOnline ESLint config.",
   "devDependencies": {
