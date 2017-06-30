@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "eslint-config-canonical": "^5.8.0"
+    "eslint-config-canonical": "^9.2.0",
+    "eslint-plugin-jest": "^20.0.3"
   },
   "description": "MailOnline ESLint config.",
   "devDependencies": {
-    "husky": "^0.11.9",
+    "husky": "^0.14.1",
     "jsonlint": "^1.6.2",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.6"
   },
   "keywords": [
     "eslint",
