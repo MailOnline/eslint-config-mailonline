@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "eslint-config-canonical": "^9.3.1"
+    "eslint-config-canonical": "^9.3.1",
+    "eslint-import-resolver-webpack": "^0.8.3"
   },
   "description": "MailOnline ESLint config.",
   "devDependencies": {
@@ -21,10 +22,10 @@
   },
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json",
-    "lint": "echo 'Hello, World!'",
+    "lint": "echo 'This project has no linting' && exit 0",
     "precommit": "npm run lint && npm run test && npm run format",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "test": "echo 'Hello, World!'"
+    "test": "echo 'This project has no tests' && exit 0"
   },
   "version": "5.0.1"
 }

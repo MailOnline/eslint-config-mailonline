@@ -84,6 +84,14 @@ either in a folder-specific eslint config, or additionally to the root config, e
 }
 ```
 
+### webpack
+
+```json
+{
+  "extends": "mailonline/webpack"
+}
+```
+
 ## Breaking changes
 
 Any changes to this package that might cause code using it to not validate anymore, will be a semver-major change.
