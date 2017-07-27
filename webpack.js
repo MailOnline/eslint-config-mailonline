@@ -1,5 +1,1 @@
-module.exports = {
-settings: {
-  "import/resolver": "webpack"
-  }
-}
+module.exports = require('./configurations/webpack.json');
