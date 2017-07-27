@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "eslint-config-canonical": "^9.3.1"
+    "eslint-config-canonical": "^9.3.1",
+    "eslint-import-resolver-webpack": "^0.8.3"
   },
   "description": "MailOnline ESLint config.",
   "devDependencies": {
