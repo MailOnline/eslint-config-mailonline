@@ -12,6 +12,10 @@
       "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*(\\.[a-z]+)*$",
       false
     ],
-    "no-restricted-syntax": "off"
+    "no-restricted-syntax": "off",
+    "react/forbid-component-props": "off",
+    "react/jsx-no-bind": "off",
+    "react/sort-prop-types": "off"
+
   }
 }
