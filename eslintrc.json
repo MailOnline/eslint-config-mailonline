@@ -12,6 +12,17 @@
       "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*(\\.[a-z]+)*$",
       false
     ],
+    "import/no-anonymous-default-export": [
+      "error",
+      {
+        "allowAnonymousClass": false,
+        "allowAnonymousFunction": false,
+        "allowArray": false,
+        "allowArrowFunction": false,
+        "allowLiteral": false,
+        "allowObject": false
+      }
+    ],
     "no-restricted-syntax": "off",
     "react/forbid-component-props": "off",
     "react/jsx-no-bind": "off",
