@@ -1,15 +1,31 @@
 {
-  "dependencies": {
-    "eslint-config-canonical": "^9.3.1"
-  },
+  "description": "MailOnline ESLint config.",
   "optionalDependencies": {
     "eslint-import-resolver-webpack": "^0.8.3"
   },
-  "description": "MailOnline ESLint config.",
+  "dependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-jsdoc": "^3.2.0",
+    "eslint-plugin-lodash": "^2.5.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-no-use-extend-native": "^0.3.12",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-unicorn": "^3.0.0"
+  },
   "devDependencies": {
-    "husky": "^0.14.1",
+    "eslint": "^4.11.0",
+    "husky": "^0.14.3",
     "jsonlint": "^1.6.2",
-    "semantic-release": "^6.3.6"
+    "semantic-release": "^8.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.11.0"
   },
   "keywords": [
     "eslint",
@@ -23,11 +39,11 @@
     "url": "https://github.com/mailonline/eslint-config-mailonline"
   },
   "scripts": {
-    "format": "jsonlint --sort-keys --in-place --indent '  ' ./eslintrc.json && echo '' >> ./eslintrc.json",
+    "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/*.json",
     "lint": "echo 'This project has no linting' && exit 0",
     "precommit": "npm run lint && npm run test && npm run format",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "echo 'This project has no tests' && exit 0"
   },
-  "version": "5.0.1"
+  "version": "0.0.0-SEMANTICALLY-RELEASED"
 }

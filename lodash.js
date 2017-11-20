@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-canonical/lodash');
+module.exports = require('./configurations/lodash.json');
