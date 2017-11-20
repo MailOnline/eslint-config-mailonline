@@ -1,5 +1,7 @@
 # `eslint-config-mailonline`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MailOnline/eslint-config-mailonline.svg)](https://greenkeeper.io/)
+
 [![NPM version](http://img.shields.io/npm/v/eslint-config-mailonline.svg?style=flat-square)](https://www.npmjs.org/package/eslint-config-mailonline)
 [![Travis build status](http://img.shields.io/travis/MailOnline/eslint-config-mailonline/master.svg?style=flat-square)](https://travis-ci.org/MailOnline/eslint-config-mailonline)
 
