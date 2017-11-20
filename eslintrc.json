@@ -25,9 +25,6 @@
     ],
     "import/prefer-default-export": "off",
     "import/max-dependencies": "off",
-    "no-restricted-syntax": "off",
-    "react/forbid-component-props": "off",
-    "react/jsx-no-bind": "off",
-    "react/sort-prop-types": "off"
+    "no-restricted-syntax": "off"
   }
 }

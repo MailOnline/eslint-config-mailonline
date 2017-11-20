@@ -1,0 +1,8 @@
+{
+  "extends": "canonical/react",
+  "rules": {
+    "react/forbid-component-props": "off",
+    "react/jsx-no-bind": "off",
+    "react/sort-prop-types": "off"
+  }
+}
