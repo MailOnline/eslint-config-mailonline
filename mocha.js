@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-canonical/mocha');
+module.exports = require('./configurations/mocha.json');

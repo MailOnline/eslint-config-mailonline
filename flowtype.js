@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-canonical/flowtype');
+module.exports = require('./configurations/flowtype.json');

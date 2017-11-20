@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-canonical/jest');
+module.exports = require('./configurations/jest.json');

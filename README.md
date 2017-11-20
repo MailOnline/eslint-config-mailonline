@@ -76,14 +76,6 @@ either in a folder-specific eslint config, or additionally to the root config, e
 }
 ```
 
-### ava
-
-```json
-{
-  "extends": "mailonline/ava"
-}
-```
-
 ### webpack
 
 ```json
