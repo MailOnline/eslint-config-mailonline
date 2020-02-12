@@ -168,9 +168,7 @@
     ],
     "import/first": [
       2,
-      {
-        "absolute-first": true
-      }
+      "absolute-first"
     ],
     "import/max-dependencies": 0,
     "import/named": 2,
