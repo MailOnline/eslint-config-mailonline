@@ -1,28 +1,28 @@
 {
   "description": "MailOnline ESLint config.",
   "optionalDependencies": {
-    "eslint-import-resolver-webpack": "^0.8.3"
+    "eslint-import-resolver-webpack": "^0.10.1"
   },
   "dependencies": {
     "babel-eslint": "^8.0.2",
-    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.3.2",
     "eslint-plugin-jsdoc": "^3.2.0",
     "eslint-plugin-lodash": "^2.5.0",
-    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-mocha": "^5.1.0",
     "eslint-plugin-no-use-extend-native": "^0.3.12",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-unicorn": "^3.0.0"
+    "eslint-plugin-unicorn": "^4.0.3"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
+    "eslint": "^5.1.0",
     "husky": "^0.14.3",
     "jsonlint": "^1.6.2",
-    "semantic-release": "^8.2.0"
+    "semantic-release": "^15.7.2"
   },
   "peerDependencies": {
     "eslint": "^4.11.0"
