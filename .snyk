@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - eslint > table > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > github > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > @semantic-release/condition-travis > github > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-core > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-08-05T00:38:29.703Z'
