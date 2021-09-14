@@ -34,6 +34,9 @@
   "license": "BSD-3-Clause",
   "main": "./index.js",
   "name": "eslint-config-mailonline",
+  "release": {
+    "branches": ["master"]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mailonline/eslint-config-mailonline"
@@ -42,7 +45,7 @@
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/*.json",
     "lint": "echo 'This project has no linting' && exit 0",
     "precommit": "npm run lint && npm run test && npm run format",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release",
     "test": "echo 'This project has no tests' && exit 0"
   },
   "version": "0.0.0-SEMANTICALLY-RELEASED"
