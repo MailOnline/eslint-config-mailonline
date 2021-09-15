@@ -1,6 +1,7 @@
 node_modules
 *.log
 .*
+!.husky
 !.gitignore
 !.npmignore
 !.travis.yml

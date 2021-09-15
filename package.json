@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "husky": "^7.0.1",
+    "husky": "^7.0.2",
     "jsonlint": "^1.6.3",
     "semantic-release": "^17.4.5"
   },
@@ -35,7 +35,9 @@
   "main": "./index.js",
   "name": "eslint-config-mailonline",
   "release": {
-    "branches": ["master"]
+    "branches": [
+      "master"
+    ]
   },
   "repository": {
     "type": "git",
@@ -44,7 +46,7 @@
   "scripts": {
     "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/*.json",
     "lint": "echo 'This project has no linting' && exit 0",
-    "precommit": "npm run lint && npm run test && npm run format",
+    "prepare": "husky install",
     "semantic-release": "semantic-release",
     "test": "echo 'This project has no tests' && exit 0"
   },
