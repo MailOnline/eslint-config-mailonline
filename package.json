@@ -1,28 +1,28 @@
 {
   "description": "MailOnline ESLint config.",
   "optionalDependencies": {
-    "eslint-import-resolver-webpack": "^0.13.1"
+    "eslint-import-resolver-webpack": "^0.13.8"
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-filenames": "^1.3.2",
-    "eslint-plugin-flowtype": "^6.0.1",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-jest": "^24.4.0",
-    "eslint-plugin-jsdoc": "^36.0.7",
-    "eslint-plugin-lodash": "^7.3.0",
-    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^28.2.0",
+    "eslint-plugin-jsdoc": "^48.2.3",
+    "eslint-plugin-lodash": "^7.4.0",
+    "eslint-plugin-mocha": "^10.4.2",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-unicorn": "^36.0.0"
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-unicorn": "^52.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^9.0.0",
     "husky": "^7.0.2",
     "jsonlint": "^1.6.3",
-    "semantic-release": "^17.4.5"
+    "semantic-release": "^23.0.8"
   },
   "peerDependencies": {
     "eslint": "^7.32.0"
