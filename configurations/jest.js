@@ -1,4 +1,4 @@
-{
+module.exports = {
   "env": {
     "jest": true
   },
@@ -11,4 +11,4 @@
     "jest/no-identical-title": "error",
     "jest/valid-expect": "error"
   }
-}
+};

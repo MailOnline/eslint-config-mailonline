@@ -1,4 +1,4 @@
-{
+module.exports = {
   "env": {
     "mocha": true
   },
@@ -19,4 +19,4 @@
     "mocha/no-return-and-callback": 2,
     "mocha/no-top-level-hooks": 2
   }
-}
+};

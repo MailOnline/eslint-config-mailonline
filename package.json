@@ -20,7 +20,6 @@
   "devDependencies": {
     "eslint": "^9.0.0",
     "husky": "^7.0.2",
-    "jsonlint": "^1.6.3",
     "semantic-release": "^22.0.12"
   },
   "engines": {
@@ -46,7 +45,6 @@
     "url": "https://github.com/mailonline/eslint-config-mailonline"
   },
   "scripts": {
-    "format": "jsonlint --sort-keys --in-place --indent '  ' ./configurations/*.json",
     "lint": "echo 'This project has no linting' && exit 0",
     "prepare": "husky install",
     "semantic-release": "semantic-release",
