@@ -1,4 +1,4 @@
-{
+module.exports = {
   "plugins": [
     "lodash"
   ],
@@ -65,4 +65,4 @@
     "lodash/prop-shorthand": 1,
     "lodash/unwrap": 1
   }
-}
+};
