@@ -12,12 +12,16 @@ Add `eslint-config-mailonline` as a development dependency:
 npm install eslint-config-mailonline --save-dev
 ```
 
-Create ESLint configuration file (`.eslintrc`) that extends `eslint-config-mailonline`:
+Create ESLint configuration file (`eslint.config.js`) that extends `eslint-config-mailonline`:
 
-```json
-{
-  "extends": "mailonline"
-}
+```js
+// eslint.config.[m]js
+import baseMailonlineConfig from "eslint-config-mailonline";
+
+export default [{
+  ...baseMailonlineConfig,
+  // additional config here
+];
 ```
 
 ## Extended configs
@@ -25,62 +29,54 @@ Create ESLint configuration file (`.eslintrc`) that extends `eslint-config-mailo
 The package also has separate entry points for some environments. Simply extend from the entry point as described below,
 either in a folder-specific eslint config, or additionally to the root config, e.g.:
 
-```json
-{
+```js
+module.exports = {
   "extends": [
     "mailonline",
     "mailonline/jest",
     "mailonline/react"
   ]
-}
+};
 ```
 
 ### jest
 
-```json
-{
+```js
+module.exports = {
   "extends": "mailonline/jest"
-}
+};
 ```
 
 ### mocha
 
-```json
-{
+```js
+module.exports = {
   "extends": "mailonline/mocha"
-}
+};
 ```
 
 ### react
 
-```json
-{
+```js
+module.exports = {
   "extends": "mailonline/react"
-}
-```
-
-### flowtype
-
-```json
-{
-  "extends": "mailonline/flowtype"
-}
+};
 ```
 
 ### lodash
 
-```json
-{
+```js
+module.exports = {
   "extends": "mailonline/lodash"
-}
+};
 ```
 
 ### webpack
 
-```json
-{
+```js
+module.exports = {
   "extends": "mailonline/webpack"
-}
+};
 ```
 
 ## Breaking changes
