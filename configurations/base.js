@@ -12,7 +12,7 @@ module.exports = {
       "impliedStrict": true,
       "jsx": true
     },
-    "ecmaVersion": 2017,
+    "ecmaVersion": 2021,
     "sourceType": "module"
   },
   "plugins": [
