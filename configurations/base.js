@@ -4,7 +4,7 @@ module.exports = {
     "es6": true,
     "node": true
   },
-  "parser": "babel-eslint",
+  "parser": "espree", // default one: https://eslint.org/docs/v8.x/use/configure/parser
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
