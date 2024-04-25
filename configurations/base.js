@@ -166,10 +166,7 @@ module.exports = {
         "json": "always"
       }
     ],
-    "import/first": [
-      2,
-      "absolute-first"
-    ],
+    "import/first": 2,
     "import/max-dependencies": 0,
     "import/named": 2,
     "import/namespace": 2,
