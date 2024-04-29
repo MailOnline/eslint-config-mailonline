@@ -47,14 +47,6 @@ module.exports = {
 };
 ```
 
-### mocha
-
-```js
-module.exports = {
-  "extends": "mailonline/mocha"
-};
-```
-
 ### react
 
 ```js
