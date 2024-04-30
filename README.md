@@ -2,26 +2,36 @@
 
 [![NPM version](http://img.shields.io/npm/v/eslint-config-mailonline.svg?style=flat-square)](https://www.npmjs.org/package/eslint-config-mailonline)
 
-MailOnline ESLint configuration.
+`eslint-config-mailonline` is a shared ESLint configuration used by MailOnline. This configuration includes rules for ES6, React, Jest, Lodash, and Webpack.
 
-## Usage
+## Prerequisites
+
+- Node.js v18.18 or higher
+
+## Installation
 
 Add `eslint-config-mailonline` as a development dependency:
 
+For *npm* users:
 ```bash
 npm install eslint-config-mailonline --save-dev
 ```
 
-Create ESLint configuration file (`eslint.config.js`) that extends `eslint-config-mailonline`:
+For *Yarn* users:
+```bash
+yarn add eslint-config-mailonline --dev
+```
+
+Please note that there is no requirement to install stylelint independently in the parent package. This is because it is included as a dependency within this library and will be hoisted to the parent package.
+
+## Usage
+
+Create ESLint configuration file (`eslint.json`) that extends `eslint-config-mailonline`:
 
 ```js
-// eslint.config.[m]js
-import baseMailonlineConfig from "eslint-config-mailonline";
-
-export default [{
-  ...baseMailonlineConfig,
-  // additional config here
-];
+{
+  "extends": "mailonline",
+}
 ```
 
 ## Extended configs
